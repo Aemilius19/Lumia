@@ -1,0 +1,23 @@
+﻿@using Lumia_Domain
+@model TeamSlider
+<div class="container">
+    <h2 class="mb-4">Add Member</h2>
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label asp-for="#" class="form-label">Full Name</label>
+            <input asp-for="#">
+            <span asp-validation-for="#" style=" color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="#" class="form-label">Position</label>
+            <input asp-for="#" />
+            <span asp-validation-for="#" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="#" class="form-label">Image</label>
+            <input asp-for="#">
+            <span asp-validation-for="#" style="color:red"></span>
+        </div#
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
